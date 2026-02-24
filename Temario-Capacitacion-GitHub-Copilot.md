@@ -561,6 +561,13 @@ Base de datos PostgreSQL 15.
 #### ¿Qué es un Agente Personalizado?
 Un agente con instrucciones predefinidas que puede ser reutilizado en múltiples proyectos sin necesidad de configurar `copilot-instructions.md` en cada repositorio.
 
+#### ¿Para qué sirve?
+- **Estandarizar la calidad:** aplica reglas consistentes (estilo, seguridad, testing, arquitectura) en todos tus proyectos.
+- **Reducir prompts repetitivos:** no necesitas re-explicar tu stack, convenciones y restricciones en cada conversación.
+- **Acelerar onboarding:** nuevos miembros obtienen “las reglas del juego” desde el primer día.
+- **Mantener consistencia entre repos:** útil si trabajas en varios repos o microservicios con el mismo estándar.
+- **Mejorar resultados del agente:** al tener contexto fijo, las respuestas suelen ser más alineadas a lo que tu equipo espera.
+
 #### ¿Cómo crearlo?
 
 **Opción 1: Archivo de Instrucciones Global**
